@@ -5,6 +5,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y vim less man wget tar git 
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y bmake
 
-RUN ADD . /kgt
+ADD . /kgt
 WORKDIR /kgt
 RUN bmake -r install
