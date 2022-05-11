@@ -1,0 +1,5 @@
+project: rnshah9/mayhem-kgt
+target: kgt
+
+cmds:
+  - cmd: /kgt/build/bin/kgt
