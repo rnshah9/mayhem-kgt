@@ -2,4 +2,4 @@ project: kgt
 target: kgt
 
 cmds:
-  - cmd: /kgt/build/bin/kgt
+  - cmd: /install/bin/kgt
